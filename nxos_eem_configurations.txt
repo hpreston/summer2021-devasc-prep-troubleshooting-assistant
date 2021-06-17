@@ -25,10 +25,10 @@ event manager applet TS_Bot_Eth1_11_UP
 ! Monitor for "down"
 event manager applet TS_Bot_Eth1_11_DOWN
   event syslog pattern "Interface Ethernet1/11 is down"
-  action 1 cli python bootflash:troubleshooting_assistant.py --interface 1/1
+  action 1 cli python bootflash:troubleshooting_assistant.py --interface 1/11
 
 ! Monitor for "up"
 event manager applet TS_Bot_Eth1_11_UP
   event syslog pattern "Interface Ethernet1/11 is up"
-  action 1 cli python bootflash:troubleshooting_assistant.py --interface 1/1
+  action 1 cli python bootflash:troubleshooting_assistant.py --interface 1/11
 
