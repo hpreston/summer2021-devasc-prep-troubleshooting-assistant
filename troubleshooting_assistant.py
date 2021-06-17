@@ -18,7 +18,7 @@ Command Line Argument: Interface ID
 
 from cli import cli, clid, structured_output_not_supported_error
 from datetime import datetime
-
+from os import mkdir
 
 def run_command(command, interface): 
     """
@@ -77,5 +77,6 @@ if __name__ == "__main__":
         )
 
     print("Output will be stored in folder {folder_name}/".format(folder_name=folder_name))
+    mkdir(folder_name)
 
     # Create a file for each command output
