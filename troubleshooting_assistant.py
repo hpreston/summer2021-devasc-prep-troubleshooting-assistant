@@ -16,7 +16,7 @@ Commands to run:
 Command Line Argument: Interface ID
 """
 
-from cli import cli, clid
+from cli import cli, clid, structured_output_not_supported_error
 
 def run_command(command, interface): 
     """
@@ -25,7 +25,10 @@ def run_command(command, interface):
     """
 
     output_raw = cli(command.format(interface_id=interface))
-    output_json = clid(command.format(interface_id=interface))
+    try: 
+        output_json = clid(command.format(interface_id=interface))
+    except structured_output_not_supported_error: 
+        output_json = False
 
     return (output_raw, output_json)
 
