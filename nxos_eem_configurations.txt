@@ -1,0 +1,34 @@
+! This file contains EEM configurations for this use case
+
+! EEM Verification Examples: 
+!   These EEM applets will monitor for the Syslog Events for the interface 
+!   up/down and generate a Syslog Message. These are meant to verify that 
+!   EEM is working, seperate from the Python Script.
+
+! Monitor for "down"
+event manager applet TS_Bot_Eth1_11_DOWN
+  event syslog pattern "Interface Ethernet1/11 is down"
+  action 1 syslog priority notifications msg SAW INTERFACE E1/11 GO DOWN
+
+! Monitor for "up"
+event manager applet TS_Bot_Eth1_11_UP
+  event syslog pattern "Interface Ethernet1/11 is up"
+  action 1 syslog priority notifications msg SAW INTERFACE E1/11 GO UP
+
+
+
+! EEM Verification Examples: 
+!   These EEM configurations will run the Python script that will 
+!   run the show commands needed, and save their output to the 
+!   bootflash on the switch.
+
+! Monitor for "down"
+event manager applet TS_Bot_Eth1_11_DOWN
+  event syslog pattern "Interface Ethernet1/11 is down"
+  action 1 cli python bootflash:troubleshooting_assistant.py --interface 1/1
+
+! Monitor for "up"
+event manager applet TS_Bot_Eth1_11_UP
+  event syslog pattern "Interface Ethernet1/11 is up"
+  action 1 cli python bootflash:troubleshooting_assistant.py --interface 1/1
+
