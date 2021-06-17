@@ -45,7 +45,12 @@ if __name__ == "__main__":
     # Run commands and store output 
     # Dict of commands to run. Key will be used for file naming
     commands = {
-        "show_interface": "show interface ethernet {interface_id}" 
+        "show_interface": "show interface ethernet {interface_id}",
+        "show_logging": "show logging last 50",
+        "show_ip_arp": "show ip arp vrf all",
+        "show_mac_address_table": "show mac address-table",
+        "show_ip_route": "show ip route vrf all",
+        "show_system_internal_interface": "show system internal interface ethernet {interface_id} ethernet {interface_id} event-history"
     }
 
     # Output Dict
