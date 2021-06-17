@@ -86,7 +86,11 @@ if __name__ == "__main__":
 
         # write raw data file 
         print("Writing file {folder_name}/{command}.txt".format(folder_name=folder_name, command=command))
+        with open("{folder_name}/{command}.txt".format(folder_name=folder_name, command=command), "w") as f_raw: 
+            f_raw.write(raw_output)
 
         # if json_output available, write json file 
         if json_output: 
             print("Writing file {folder_name}/{command}.json".format(folder_name=folder_name, command=command))
+            with open("{folder_name}/{command}.json".format(folder_name=folder_name, command=command), "w") as f_json: 
+                f_json.write(json_output)
