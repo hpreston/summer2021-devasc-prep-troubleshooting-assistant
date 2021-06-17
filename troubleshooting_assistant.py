@@ -16,6 +16,19 @@ Commands to run:
 Command Line Argument: Interface ID
 """
 
+from cli import cli, clid
+
+def run_command(command, interface): 
+    """
+    Run a given command and gather both raw and JSON output.
+    Return as a tuple. (output_raw, output_json)
+    """
+
+    output_raw = command.format(interface_id=interface)
+    output_json = command.format(interface_id=interface)
+
+    return (output_raw, output_json)
+
 if __name__ == "__main__": 
     print("Collecting show commands and storing in bootflash.")
 
@@ -30,6 +43,21 @@ if __name__ == "__main__":
     print("Interface Ethernet {interface_id} will be checked.".format(interface_id = args.interface))
    
     # Run commands and store output 
+    # Dict of commands to run. Key will be used for file naming
+    commands = {
+        "show_interface": "show interface ethernet {interface_id}" 
+    }
+
+    # Output Dict
+    output = {}
+
+    # Loop over commands to run function and save output 
+    for label, command in commands.items(): 
+        output[label] = run_command(command, args.interface)
+    
+    # for debugging, print output 
+    print(output)
+
 
     # Create new folder for output 
 
