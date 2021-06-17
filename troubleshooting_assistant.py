@@ -80,3 +80,13 @@ if __name__ == "__main__":
     mkdir(folder_name)
 
     # Create a file for each command output
+    for command, results in output.items(): 
+        # Unpack the results
+        raw_output, json_output = results
+
+        # write raw data file 
+        print("Writing file {folder_name}/{command}.txt".format(folder_name=folder_name, command=command))
+
+        # if json_output available, write json file 
+        if json_output: 
+            print("Writing file {folder_name}/{command}.json".format(folder_name=folder_name, command=command))
