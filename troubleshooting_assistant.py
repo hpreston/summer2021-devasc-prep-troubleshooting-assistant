@@ -71,9 +71,9 @@ if __name__ == "__main__":
     # Create new folder for output 
     now = datetime.now()
     report_timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
-    folder_name = "/bootflash/ts_report_{timestamp}_{interface_id}".format(
+    folder_name = "/bootflash/ts_report_{timestamp}_interface{interface_id}".format(
         timestamp=report_timestamp, 
-        interface_id=args.interface
+        interface_id=args.interface.replace("/", "_")
         )
 
     print("Output will be stored in folder {folder_name}/".format(folder_name=folder_name))
