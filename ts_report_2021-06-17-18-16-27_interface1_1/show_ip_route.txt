@@ -1,0 +1,82 @@
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+172.16.101.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.101.2, Vlan101, [0/0], 2w1d, direct
+172.16.101.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.101.1, Vlan101, [0/0], 2w1d, hsrp
+172.16.101.2/32, ubest/mbest: 1/0, attached
+    *via 172.16.101.2, Vlan101, [0/0], 2w1d, local
+172.16.102.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.102.2, Vlan102, [0/0], 2w1d, direct
+172.16.102.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.102.1, Vlan102, [0/0], 2w1d, hsrp
+172.16.102.2/32, ubest/mbest: 1/0, attached
+    *via 172.16.102.2, Vlan102, [0/0], 2w1d, local
+172.16.103.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.103.2, Vlan103, [0/0], 2w1d, direct
+172.16.103.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.103.1, Vlan103, [0/0], 2w1d, hsrp
+172.16.103.2/32, ubest/mbest: 1/0, attached
+    *via 172.16.103.2, Vlan103, [0/0], 2w1d, local
+172.16.104.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.104.2, Vlan104, [0/0], 2w1d, direct
+172.16.104.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.104.1, Vlan104, [0/0], 2w1d, hsrp
+172.16.104.2/32, ubest/mbest: 1/0, attached
+    *via 172.16.104.2, Vlan104, [0/0], 2w1d, local
+172.16.105.0/24, ubest/mbest: 1/0, attached
+    *via 172.16.105.2, Vlan105, [0/0], 2w1d, direct
+172.16.105.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.105.1, Vlan105, [0/0], 2w1d, hsrp
+172.16.105.2/32, ubest/mbest: 1/0, attached
+    *via 172.16.105.2, Vlan105, [0/0], 2w1d, local
+172.16.252.0/30, ubest/mbest: 1/0, attached
+    *via 172.16.252.1, Eth1/3, [0/0], 00:40:52, direct
+172.16.252.1/32, ubest/mbest: 1/0, attached
+    *via 172.16.252.1, Eth1/3, [0/0], 00:40:52, local
+172.16.252.4/30, ubest/mbest: 1/0, attached
+    *via 172.16.252.5, Eth1/4, [0/0], 2w1d, direct
+172.16.252.5/32, ubest/mbest: 1/0, attached
+    *via 172.16.252.5, Eth1/4, [0/0], 2w1d, local
+172.16.252.8/30, ubest/mbest: 1/0
+    *via 172.16.252.2, Eth1/3, [110/41], 00:40:47, ospf-1, intra
+172.16.252.12/30, ubest/mbest: 1/0
+    *via 172.16.252.6, Eth1/4, [110/41], 2w1d, ospf-1, intra
+172.16.252.16/30, ubest/mbest: 2/0
+    *via 172.16.252.2, Eth1/3, [110/41], 00:40:47, ospf-1, intra
+    *via 172.16.252.6, Eth1/4, [110/41], 00:40:47, ospf-1, intra
+172.16.252.20/30, ubest/mbest: 1/0
+    *via 172.16.252.2, Eth1/3, [110/41], 00:40:47, ospf-1, intra
+172.16.252.24/30, ubest/mbest: 1/0
+    *via 172.16.252.2, Eth1/3, [110/41], 00:40:47, ospf-1, intra
+172.16.252.28/30, ubest/mbest: 1/0
+    *via 172.16.252.6, Eth1/4, [110/41], 2w1d, ospf-1, intra
+172.16.252.32/30, ubest/mbest: 1/0
+    *via 172.16.252.6, Eth1/4, [110/41], 2w1d, ospf-1, intra
+172.16.252.36/30, ubest/mbest: 2/0
+    *via 172.16.252.2, Eth1/3, [110/42], 00:40:47, ospf-1, intra
+    *via 172.16.252.6, Eth1/4, [110/42], 00:40:47, ospf-1, intra
+172.16.253.0/29, ubest/mbest: 2/0
+    *via 172.16.252.2, Eth1/3, [110/42], 00:40:47, ospf-1, intra
+    *via 172.16.252.6, Eth1/4, [110/42], 00:40:47, ospf-1, intra
+172.31.0.0/16, ubest/mbest: 2/0
+    *via 172.16.252.2, Eth1/3, [110/20], 00:40:47, ospf-1, type-2
+    *via 172.16.252.6, Eth1/4, [110/20], 00:40:47, ospf-1, type-2
+
+IP Route Table for VRF "management"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+0.0.0.0/0, ubest/mbest: 1/0
+    *via 10.10.20.254, [1/0], 2w1d, static
+10.10.20.0/24, ubest/mbest: 1/0, attached
+    *via 10.10.20.177, mgmt0, [0/0], 2w1d, direct
+10.10.20.177/32, ubest/mbest: 1/0, attached
+    *via 10.10.20.177, mgmt0, [0/0], 2w1d, local
+

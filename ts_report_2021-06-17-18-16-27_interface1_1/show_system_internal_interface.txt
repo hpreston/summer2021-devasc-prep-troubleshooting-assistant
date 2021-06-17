@@ -1,0 +1,4252 @@
+Showing output for single interface: Eth1/1
+lacp]
+  FSM:<Ethernet1/1> Transition at 131304 usecs after Tue Jun  1 23:12:14 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 133006 usecs after Tue Jun  1 23:12:15 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 136146 usecs after Tue Jun  1 23:12:16 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 139970 usecs after Tue Jun  1 23:12:17 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 142194 usecs after Tue Jun  1 23:12:18 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 144208 usecs after Tue Jun  1 23:12:19 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 146086 usecs after Tue Jun  1 23:12:20 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 132585 usecs after Tue Jun  1 23:12:21 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_RECEIVE_PARTNER_PDU_TIMED_OUT]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 147015 usecs after Tue Jun  1 23:12:21 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 159383 usecs after Tue Jun  1 23:12:21 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 162026 usecs after Tue Jun  1 23:12:22 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 163830 usecs after Tue Jun  1 23:12:22 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 158635 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 158690 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 195014 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 195084 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 203815 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 204650 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 224078 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 509553 usecs after Tue Jun  1 23:12:23 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 159426 usecs after Tue Jun  1 23:12:24 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 160791 usecs after Tue Jun  1 23:12:25 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 163389 usecs after Tue Jun  1 23:12:26 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 164215 usecs after Tue Jun  1 23:12:26 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 171417 usecs after Tue Jun  1 23:12:26 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PORT_HW_PATH_ENABLED]
+    Next state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 768514 usecs after Thu Jun 17 17:27:52 2021
+    Previous state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+    Triggered event: [LACP_EV_LACP_DOWN_OR_PORT_DOWN]
+    Next state: [LACP_ST_WAIT_FOR_PARTNER_TO_DISABLE_TRANSIT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 768607 usecs after Thu Jun 17 17:27:52 2021
+    Previous state: [LACP_ST_WAIT_FOR_PARTNER_TO_DISABLE_TRANSIT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 788393 usecs after Thu Jun 17 17:27:52 2021
+    Previous state: [LACP_ST_WAIT_FOR_PARTNER_TO_DISABLE_TRANSIT]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_DISABLE_TRANSMIT_AND_RECEIVE_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 801731 usecs after Thu Jun 17 17:27:52 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_DISABLE_TRANSMIT_AND_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_HW_PATH_DISABLED]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 847569 usecs after Thu Jun 17 17:27:52 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_CLNUP_PHASE_II]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 769150 usecs after Thu Jun 17 17:28:22 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_PARTNER_TRANSMIT_DISABLE_TIMED_OUT]
+    Next state: [No transition found]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 303057 usecs after Thu Jun 17 17:28:23 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 304519 usecs after Thu Jun 17 17:28:24 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 306149 usecs after Thu Jun 17 17:28:25 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 311504 usecs after Thu Jun 17 17:28:25 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 312204 usecs after Thu Jun 17 17:28:26 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 319971 usecs after Thu Jun 17 17:28:26 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 314320 usecs after Thu Jun 17 17:28:27 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 314407 usecs after Thu Jun 17 17:28:27 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 320056 usecs after Thu Jun 17 17:28:27 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 320097 usecs after Thu Jun 17 17:28:27 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 321097 usecs after Thu Jun 17 17:28:28 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 321921 usecs after Thu Jun 17 17:28:28 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 331523 usecs after Thu Jun 17 17:28:28 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 420000 usecs after Thu Jun 17 17:28:28 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 420075 usecs after Thu Jun 17 17:28:28 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 364772 usecs after Thu Jun 17 17:28:29 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 370952 usecs after Thu Jun 17 17:28:29 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PORT_HW_PATH_ENABLED]
+    Next state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 366071 usecs after Thu Jun 17 17:28:30 2021
+    Previous state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 329652 usecs after Thu Jun 17 17:28:31 2021
+    Previous state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 333663 usecs after Thu Jun 17 17:28:31 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_DOWN_OR_PORT_DOWN]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 338802 usecs after Thu Jun 17 17:28:31 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_PORT_HW_PATH_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 361042 usecs after Thu Jun 17 17:28:31 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_CLNUP_PHASE_II]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 373453 usecs after Thu Jun 17 17:28:31 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 374772 usecs after Thu Jun 17 17:28:32 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 376285 usecs after Thu Jun 17 17:28:33 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 377973 usecs after Thu Jun 17 17:28:34 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 383991 usecs after Thu Jun 17 17:28:34 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 385056 usecs after Thu Jun 17 17:28:35 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 386968 usecs after Thu Jun 17 17:28:35 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 385015 usecs after Thu Jun 17 17:28:36 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 385051 usecs after Thu Jun 17 17:28:36 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 388775 usecs after Thu Jun 17 17:28:36 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 389371 usecs after Thu Jun 17 17:28:36 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 410702 usecs after Thu Jun 17 17:28:36 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 410736 usecs after Thu Jun 17 17:28:36 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 411632 usecs after Thu Jun 17 17:28:37 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 413086 usecs after Thu Jun 17 17:28:38 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 390683 usecs after Thu Jun 17 17:28:39 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_RECEIVE_PARTNER_PDU_TIMED_OUT]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 395516 usecs after Thu Jun 17 17:28:39 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_DOWN_OR_PORT_DOWN]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 400104 usecs after Thu Jun 17 17:28:39 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_PORT_HW_PATH_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 420824 usecs after Thu Jun 17 17:28:39 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 421832 usecs after Thu Jun 17 17:28:40 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 428500 usecs after Thu Jun 17 17:28:40 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 429913 usecs after Thu Jun 17 17:28:41 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 432227 usecs after Thu Jun 17 17:28:41 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 429194 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 429379 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 429406 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 453686 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 469983 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 470333 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B6E9C
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 471479 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B6E9C
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 471594 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B6EA0
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 473040 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B6EA0
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 473361 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B6EA2
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 473431 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 473444 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 474044 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 474180 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B6EA2
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 474230 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VNTAGC(660), Opc:MTS_OPC_SAT_FABRIC_BIND(111629)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 474281 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 474321 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPCM_SHADOW_BRINGUP(657)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 474418 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B6EA9
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 475472 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B6EA9
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 475587 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B6EAD
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 475838 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B6EAD
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 475972 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B6EAF
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 476441 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B6EAF
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 476591 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B6EB1
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 477721 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B6EB1
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 477827 usecs after Thu Jun 17 17:28:42 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_HW_EN_DI_NOTIF(63500)
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 477862 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_CHANNEL_HW_CONFIG_UP_DONE]
+    Next state: [PCM_ETH_PORT_ST_PC_UP]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 477914 usecs after Thu Jun 17 17:28:42 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PORT_HW_PATH_ENABLED]
+    Next state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 693999 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_DISABLED_DISTRIBUTING_ENABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_DISABLE_TRANSMIT_PATH]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 694744 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_PC_UP]
+    Triggered event: [PCM_PORT_EV_PCP_DISABLE_TRANSMIT]
+    Next state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 694762 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 694916 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B711B
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 695468 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B711B
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 695732 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B711D
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 696967 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B711D
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 697015 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_HW_DISABLE_TRANSMIT_DONE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 698352 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_DISABLE_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PORT_TRANSMIT_PATH_DISABLED_RSP_AS_CHANNEL_MEMBER]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 698884 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 716651 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 717365 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_PCP_STATE_CHANGE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 720316 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_BUNDLE_MEMBER_DOWN]
+    Next state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 720381 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 720387 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 720430 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPCM_SHADOW_BRINGDOWN(681)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 720531 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7131
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 720833 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_DOWN_OR_PORT_DOWN]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 721283 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7131
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 721411 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7133
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 722122 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7133
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 722165 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7135
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 722682 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7135
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 722894 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7137
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 723258 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7137
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 723323 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 723345 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 723734 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7139
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 725112 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7139
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 725216 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_HW_EN_DI_NOTIF(63500)
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 725254 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_CHANNEL_HW_CONFIG_DN_DONE]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 725315 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_PORT_HW_PATH_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 740646 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_DN]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 741372 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_CLNUP_PHASE_II]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 749264 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B717B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 749282 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 749285 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 749383 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 752552 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 752694 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7184
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 753023 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 753434 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP]
+    Next state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 753460 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 753559 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7186
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 753855 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BUNDLE_COMPAT_CHECK]
+    Next state: [No transition found]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 753868 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7186
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 753904 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+    Triggered event: [PCM_PORT_EV_COMPAT_OK_ACTIVE]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+
+
+pcm]
+  Event:ESQ_START length:38, at 753923 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 754057 usecs after Thu Jun 17 17:29:17 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7188
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 754510 usecs after Thu Jun 17 17:29:17 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 755913 usecs after Thu Jun 17 17:29:18 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 756898 usecs after Thu Jun 17 17:29:19 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 758570 usecs after Thu Jun 17 17:29:20 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 760344 usecs after Thu Jun 17 17:29:21 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 762400 usecs after Thu Jun 17 17:29:22 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 763835 usecs after Thu Jun 17 17:29:23 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 756238 usecs after Thu Jun 17 17:29:24 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_RECEIVE_PARTNER_PDU_TIMED_OUT]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 756332 usecs after Thu Jun 17 17:29:24 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 757390 usecs after Thu Jun 17 17:29:25 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 759028 usecs after Thu Jun 17 17:29:26 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 757315 usecs after Thu Jun 17 17:29:27 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_RECEIVE_PARTNER_PDU_TIMED_OUT]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 757542 usecs after Thu Jun 17 17:29:27 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_RECEIVE_PARTNER_PDU_TIMED_OUT_II]
+    Next state: [LACP_ST_SUSPENDED_FOR_MISCONFIGURATION]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 758449 usecs after Thu Jun 17 17:29:27 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7188
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 758496 usecs after Thu Jun 17 17:29:27 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+    Triggered event: [PCM_PORT_EV_PCP_DONE_SUSPENDED]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 759402 usecs after Thu Jun 17 17:29:27 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:LACP port suspended due to no PDUs received from peer
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7184
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 759585 usecs after Thu Jun 17 17:29:27 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_SUSPEND_PORT_DUE_TO_NO_LACP_PDUS]
+    Next state: [ETH_PORT_FSM_ST_PORT_SUSPENDED]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 774266 usecs after Thu Jun 17 17:30:17 2021
+    Previous state: [ETH_PORT_FSM_ST_PORT_SUSPENDED]
+    Triggered event: [ETH_PORT_FSM_EV_PACER_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 55862 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [LACP_ST_SUSPENDED_FOR_MISCONFIGURATION]
+    Triggered event: [LACP_EV_MISCONFIGURATION_CLEARED]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 56802 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PCP_STATE_CHANGE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 57683 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [ETH_PORT_FSM_ST_PORT_SUSPENDED]
+    Triggered event: [ETH_PORT_FSM_EV_EXTERNAL_REINIT_NO_FLAP_REQ]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 57819 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 57853 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 57858 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 57905 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 58177 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 58347 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 60213 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 60224 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_PHY_LINK_STATE_CHANGE(62470)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 60941 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_DCX_CONFIG_FEATURE(96271)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 61448 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 61852 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 65507 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7988
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 66458 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7988
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 66477 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 66480 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 66576 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 71863 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 72055 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7991
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 72464 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 73236 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP]
+    Next state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 73275 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 73413 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7993
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 75374 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BUNDLE_COMPAT_CHECK]
+    Next state: [No transition found]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 75424 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7993
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 75483 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+    Triggered event: [PCM_PORT_EV_COMPAT_OK_ACTIVE]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+
+
+pcm]
+  Event:ESQ_START length:38, at 75514 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 75705 usecs after Thu Jun 17 17:30:53 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7995
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 76977 usecs after Thu Jun 17 17:30:53 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 65354 usecs after Thu Jun 17 17:30:54 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 66103 usecs after Thu Jun 17 17:30:55 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 66152 usecs after Thu Jun 17 17:30:55 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 66527 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 66557 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 68430 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 68884 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 69012 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7995
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 69061 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+    Triggered event: [PCM_PORT_EV_PCP_DONE_PC]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 70252 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7991
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 70290 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 70301 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 70305 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 70394 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_PORT_IS_BUNDLE_MEMBER]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 72277 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_SHUT_RESP]
+    Next state: [No transition found]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 72288 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BRINGUP_BUNDLE_MEMBER]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 72314 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 72355 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 72359 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 72369 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x000098C0
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 72377 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 72475 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79AE
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 73524 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79AE
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 73556 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79B5
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 75368 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79B5
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 75483 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79B7
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 81428 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79B7
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 81465 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79C0
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 82566 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79C0
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 82649 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79C6
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 83356 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79C6
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 83522 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B79C8
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 86943 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B79C8
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 87050 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79CA
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 87653 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79CA
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 87742 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCM(453), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79CC
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 88530 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MCM(453), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79CC
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 88684 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 89255 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 91236 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79CF
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 91495 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_PORT_UP_PHASE2_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 91542 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_PORT_UP_PHASE2]
+    Next state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 91785 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 91795 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 91799 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 92407 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B79D0
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 93916 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B79D0
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 94038 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B79D5
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 95337 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B79D5
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 95479 usecs after Thu Jun 17 17:30:56 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B79DB
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 95664 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 95695 usecs after Thu Jun 17 17:30:56 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 97318 usecs after Thu Jun 17 17:30:57 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 98761 usecs after Thu Jun 17 17:30:58 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 70406 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_RECEIVE_PARTNER_PDU_TIMED_OUT]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 71197 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_PCP_STATE_CHANGE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 71971 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:fsm processed a disruptive event
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B79DB
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 72025 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_HWCFG_FAIL]
+    Next state: [PCM_ETH_PORT_ST_ERROR]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 72621 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:linecard programming error
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B79CF
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 72687 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_P2_BRINGUP_FAIL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 74391 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_ERROR]
+    Triggered event: [PCM_PORT_EV_BUNDLE_MEMBER_DOWN]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_START length:38, at 74663 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 74668 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 74723 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPCM_SHADOW_BRINGDOWN(681)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 74824 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7A00
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 75076 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_DOWN_OR_PORT_DOWN]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 75533 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7A00
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 75711 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7A02
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 76300 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7A02
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 76422 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7A04
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 76791 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7A04
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 76906 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7A06
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 77307 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7A06
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 77365 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 77388 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 78008 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7A08
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 79628 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7A08
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 79740 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_HW_EN_DI_NOTIF(63500)
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 79779 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_ERROR]
+    Triggered event: [PCM_PORT_EV_CHANNEL_HW_CONFIG_DN_DONE]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 79820 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_PORT_HW_PATH_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 94396 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_PROTO_DOWN]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PROTOCOL_DOWN]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 94413 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 94442 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 94608 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+    RRtoken:0x005B7A27
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 94761 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_DN]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 95125 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_CLNUP_PHASE_II]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 95963 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+    RRtoken:0x005B7A27
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 95971 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_OSPF(320), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 96021 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PROTOCOL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_PROTO_DOWN_DONE]
+    Next state: [ETH_PORT_FSM_ST_PROTOCOL_DOWN]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 96031 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_PROTOCOL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_PHY_DOWN]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PHYSICAL_DOWN]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 96077 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 96140 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 96160 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:Send state change for shared intf if not sent in log down
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 99751 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_PHY_LINK_STATE_CHANGE(62470)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 100542 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A31
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 179812 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A31
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 179820 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:Wait for debounce logic
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 280096 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:Wait for debounce logic
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 280256 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 282344 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 282378 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 282389 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 282398 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 282493 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A47
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 283138 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A47
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 283269 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A49
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 284746 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A49
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 284880 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A4B
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 285252 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A4B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 285274 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 285285 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FLEXLINK(498), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 285426 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A4F
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 285701 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A4F
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 285796 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A51
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 286938 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x005B7A51
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287055 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287073 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287083 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SFLOW(887), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 287283 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PHYSICAL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_PHY_DOWN_DONE]
+    Next state: [ETH_PORT_FSM_ST_WAIT_APPLY_CONFIG]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 287311 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287319 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_SYNC_MESSAGE(0)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287335 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_STOP(59414)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287337 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_FCOT_SPROM_READ(8194)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287340 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:Sending MTS_OPC_LC_PORT_CLIENT_CFG and/or PARAM_CHANGE opcode
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287343 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ELTM_INTF_FEATURE_REQ_RESP(72748)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 287616 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 290225 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 290250 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_RESUME(59417)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 290419 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 293575 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 293637 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_APPLY_CONFIG]
+    Triggered event: [ETH_PORT_FSM_EV_CFG_DONE]
+    Next state: [ETH_PORT_FSM_ST_INIT_EVAL]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 293775 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_INIT_EVAL]
+    Triggered event: [ETH_PORT_FSM_EV_IE_PORT_INIT]
+    Next state: [ETH_PORT_FSM_ST_SPAN_EVAL]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 293780 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_SPAN_EVAL]
+    Triggered event: [ETH_PORT_FSM_EV_NON_SPAN_DEST]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PRE_CFG]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 293805 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296439 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296443 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu credits
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296446 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_OHMS(1011), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296466 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296476 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296485 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296494 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PVLAN(180), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 296601 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A6A
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 297668 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A6A
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 297763 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 297779 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 297950 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A71
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 299332 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A71
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 299340 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_QOS_MANAGER(59), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 299597 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A74
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 299869 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A74
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 299977 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_NVE(1304), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 300210 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A77
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 303005 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A77
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 303432 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A79
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 304069 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A79
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 304537 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A7B
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 306536 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x005B7A7B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 306610 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 306616 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check if port is eventually going to be down
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 306733 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:Pacer Check
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 306738 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check if port is eventually going to be down
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 307341 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+    RRtoken:0x005B7A7E
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 422397 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+    RRtoken:0x005B7A7E
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 422435 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SFLOW(887), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 422486 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PRE_CFG]
+    Triggered event: [ETH_PORT_FSM_EV_PRE_CFG_DONE]
+    Next state: [ETH_PORT_FSM_ST_LINK_INIT]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 424960 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_LINK_INIT]
+    Triggered event: [ETH_PORT_FSM_EV_EXTERNAL_REINIT_NO_FLAP_REQ]
+    Next state: [No transition found]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 427664 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_LINK_INIT]
+    Triggered event: [ETH_PORT_FSM_EV_LINK_UP]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 427785 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 427804 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 427808 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 427834 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 427986 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 428021 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 431605 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 435331 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_PHY_LINK_STATE_CHANGE(62470)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 435383 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_DCX_CONFIG_FEATURE(96271)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 435405 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 435414 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 439666 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7AC6
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 440071 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7AC6
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 440089 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 440092 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 440182 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 442620 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 442731 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7ACE
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 443842 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 444343 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP]
+    Next state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 444367 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 444663 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7AD0
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 444753 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BUNDLE_COMPAT_CHECK]
+    Next state: [No transition found]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 444793 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7AD0
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 444828 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+    Triggered event: [PCM_PORT_EV_COMPAT_OK_ACTIVE]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+
+
+pcm]
+  Event:ESQ_START length:38, at 444846 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 444978 usecs after Thu Jun 17 17:30:59 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7AD4
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 445251 usecs after Thu Jun 17 17:30:59 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 126853 usecs after Thu Jun 17 17:31:00 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 127911 usecs after Thu Jun 17 17:31:01 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 127962 usecs after Thu Jun 17 17:31:01 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 128349 usecs after Thu Jun 17 17:31:02 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 128643 usecs after Thu Jun 17 17:31:02 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 128666 usecs after Thu Jun 17 17:31:02 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 134595 usecs after Thu Jun 17 17:31:02 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 129825 usecs after Thu Jun 17 17:31:03 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 135984 usecs after Thu Jun 17 17:31:03 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 132175 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 139451 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 140212 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7AD4
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 140251 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 140255 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+    Triggered event: [PCM_PORT_EV_PCP_DONE_PC]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 141327 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7ACE
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 141357 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 141368 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 141371 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 141458 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_PORT_IS_BUNDLE_MEMBER]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 143127 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BRINGUP_BUNDLE_MEMBER]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 143150 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 143187 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 143191 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 143200 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x000098C0
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 143208 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 143299 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B04
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 145839 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B04
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 145940 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B0B
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 148058 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B0B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 148188 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B0D
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 152395 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B0D
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 152522 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B15
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 155175 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B15
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 155207 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B17
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 156001 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B17
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 156156 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7B19
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 232953 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7B19
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 233097 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B1B
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 234145 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B1B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 234179 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCM(453), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B1D
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 234806 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MCM(453), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B1D
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 234975 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 235648 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 235775 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B20
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 236180 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_PORT_UP_PHASE2_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 236201 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_PORT_UP_PHASE2]
+    Next state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 236395 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 236402 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 236412 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 237076 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7B21
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 238467 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7B21
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 238689 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7B25
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 239587 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7B25
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 240239 usecs after Thu Jun 17 17:31:04 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B7B27
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 240353 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 240384 usecs after Thu Jun 17 17:31:04 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 167752 usecs after Thu Jun 17 17:31:05 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 168921 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B7B27
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 168984 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VNTAGC(660), Opc:MTS_OPC_SAT_FABRIC_BIND(111629)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 169004 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 169045 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPCM_SHADOW_BRINGUP(657)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 169204 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7B4E
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 171039 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7B4E
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 171157 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7B51
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 171430 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7B51
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 171548 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7B53
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 172238 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7B53
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 172535 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7B55
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 173471 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7B55
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 173700 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_HW_EN_DI_NOTIF(63500)
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 173745 usecs after Thu Jun 17 17:31:05 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_CHANNEL_HW_CONFIG_UP_DONE]
+    Next state: [PCM_ETH_PORT_ST_PC_UP]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 173789 usecs after Thu Jun 17 17:31:05 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PORT_HW_PATH_ENABLED]
+    Next state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 174858 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B20
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 175056 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 175470 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 175716 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B5F
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 175763 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B5F
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176008 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176013 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176032 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176042 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176061 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLTFM_CONFIG(424), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B64
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 177237 usecs after Thu Jun 17 17:31:05 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLTFM_CONFIG(424), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7B64
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 177359 usecs after Thu Jun 17 17:31:05 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_P2_BRINGUP_DONE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 178843 usecs after Thu Jun 17 17:31:05 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BRINGUP_BUNDLE_MEMBER_DONE]
+    Next state: [ETH_PORT_FSM_ST_BUNDLE_MEMBER_UP]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 169558 usecs after Thu Jun 17 17:31:06 2021
+    Previous state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 143197 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 143999 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_PC_UP]
+    Triggered event: [PCM_PORT_EV_PCP_STATE_CHANGE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 144395 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [ETH_PORT_FSM_ST_BUNDLE_MEMBER_UP]
+    Triggered event: [ETH_PORT_FSM_EV_EXTERNAL_REINIT_NO_FLAP_REQ]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 144445 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 144479 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:Graceful shut steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 144484 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq: create graceful_down req payload
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 144487 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_L3_IF_GRACEFUL_DOWN(62520)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 144515 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 144518 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 144521 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:send state change
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 144548 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [ETH_PORT_FSM_ST_BUNDLE_MEMBER_UP]
+    Triggered event: [ETH_PORT_FSM_EV_FEED_CHECK_LAST_TO_BUNDLE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 146273 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_PC_UP]
+    Triggered event: [PCM_PORT_EV_BUNDLE_MEMBER_DOWN]
+    Next state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 146394 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 146399 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 146438 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPCM_SHADOW_BRINGDOWN(681)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 146558 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7B8B
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 146756 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_DOWN_OR_PORT_DOWN]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 147399 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7B8B
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 147643 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7B8D
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 148354 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7B8D
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 148543 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7B8F
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 149403 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7B8F
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 149488 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7B92
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 149792 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+    RRtoken:0x005B7B92
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 149892 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7B94
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 150535 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7B94
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 150683 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 150706 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_PROTOCOL_DN(63497)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 151094 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7B96
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 153077 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7B96
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 153187 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_HW_EN_DI_NOTIF(63500)
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 153223 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_CHANNEL_HW_CONFIG_DN_DONE]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 153289 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_PORT_HW_PATH_DISABLED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 163984 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [ETH_PORT_FSM_ST_BUNDLE_MEMBER_UP]
+    Triggered event: [ETH_PORT_FSM_EV_PROTO_DOWN_RNF]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PROTOCOL_DOWN_RNF]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 171527 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 171549 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 171661 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+    RRtoken:0x005B7BC1
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 171801 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_DN]
+    Next state: [PCM_ETH_PORT_ST_INIT_DOWN]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 172157 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_CLNUP_PHASE_II]
+    Next state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 174220 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+    RRtoken:0x005B7BC1
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 174226 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_OSPF(320), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 174262 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PROTOCOL_DOWN_RNF]
+    Triggered event: [ETH_PORT_FSM_EV_PROTO_DOWN_DONE]
+    Next state: [ETH_PORT_FSM_ST_PROTOCOL_DOWN]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 174269 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [ETH_PORT_FSM_ST_PROTOCOL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_EXTERNAL_REINIT_NO_FLAP_REQ]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 174326 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 174343 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 174347 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 174441 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 174726 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 174812 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 176659 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176665 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_PHY_LINK_STATE_CHANGE(62470)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176926 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_DCX_CONFIG_FEATURE(96271)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176945 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 176955 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 179416 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7BE5
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 182920 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7BE5
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 182989 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 182992 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 183089 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 186740 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 186864 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7BEF
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 187270 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 187823 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_PORT_UP]
+    Next state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 187855 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 188001 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7BF1
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 188090 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BUNDLE_COMPAT_CHECK]
+    Next state: [No transition found]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 188116 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_PCM_COMPAT_CHECK(641)
+    RRtoken:0x005B7BF1
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 188158 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [PCM_ETH_PORT_ST_OPER_COMPAT]
+    Triggered event: [PCM_PORT_EV_COMPAT_OK_ACTIVE]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+
+
+pcm]
+  Event:ESQ_START length:38, at 188183 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 188334 usecs after Thu Jun 17 17:31:07 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7BF3
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 188911 usecs after Thu Jun 17 17:31:07 2021
+    Previous state: [LACP_ST_PORT_IS_DOWN_OR_LACP_IS_DISABLED]
+    Triggered event: [LACP_EV_LACP_ENABLED_AND_PORT_UP]
+    Next state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 177063 usecs after Thu Jun 17 17:31:08 2021
+    Previous state: [LACP_ST_DETACHED_LAG_NOT_DETERMINED]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 183564 usecs after Thu Jun 17 17:31:08 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 178393 usecs after Thu Jun 17 17:31:09 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 185877 usecs after Thu Jun 17 17:31:09 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PARTNER_PDU_OUT_OF_SYNC]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 178537 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_WAIT_PORT_CHANNEL_SELECT]
+    Triggered event: [LACP_EV_PORT_SELECTED_MEMBER_FOR_AGGREGATION]
+    Next state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 178592 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 185080 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_ATTACHED_TO_AGGREGATOR]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 185738 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_PROTOCOL_UP(63496)
+    RRtoken:0x005B7BF3
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 185787 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PROTO]
+    Triggered event: [PCM_PORT_EV_PCP_DONE_PC]
+    Next state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 186581 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x005B7BEF
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 186611 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 186621 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 186625 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 186668 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_PORT_IS_BUNDLE_MEMBER]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 188475 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BRINGUP_BUNDLE_MEMBER]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 188502 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 188546 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 188551 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 188566 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x000098C0
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 188577 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 188697 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C17
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 190026 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C17
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 190126 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C1E
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 191936 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C1E
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 192042 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C20
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 195677 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C20
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 195981 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C28
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 196676 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C28
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 196826 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C2A
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 197942 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C2A
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 198136 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7C2C
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 199225 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7C2C
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 199366 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C2E
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 200038 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C2E
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 200173 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCM(453), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C30
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 200503 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MCM(453), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C30
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 200878 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 201153 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 201352 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C33
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 201540 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_PORT_UP_PHASE2_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 201556 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [PCM_ETH_PORT_ST_WAIT_PHASE2_BRINGUP]
+    Triggered event: [PCM_PORT_EV_PORT_UP_PHASE2]
+    Next state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+
+
+pcm]
+  Event:ESQ_START length:38, at 201870 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 201877 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 201881 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 202692 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7C34
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 203586 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+    RRtoken:0x005B7C34
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 203705 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7C38
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 204409 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_PORT_STATE(69640)
+    RRtoken:0x005B7C38
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 204732 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B7C3A
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 204804 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_RECEIVE_PATH]
+    Triggered event: [LACP_EV_PORT_RECEIVE_PATH_ENABLED_AS_CHANNEL_MEMBER_MESSAGE]
+    Next state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 204832 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PERIODIC_TRANSMIT_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 243640 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_PORT_MEMBER_RECEIVE_ENABLED]
+    Triggered event: [LACP_EV_PARTNER_PDU_IN_SYNC_COLLECT_ENABLED_DISTRIBUTING_DISABLED]
+    Next state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 244740 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+    RRtoken:0x005B7C3A
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 244827 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VNTAGC(660), Opc:MTS_OPC_SAT_FABRIC_BIND(111629)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 244866 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FWM(602), Opc:MTS_OPC_PCM_RX_HW_ENABLED(63498)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 244927 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPCM_SHADOW_BRINGUP(657)
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 245048 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7C4A
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 246966 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7C4A
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 247034 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7C4D
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 247382 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_UFDM_SYS(193), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7C4D
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 247616 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7C4F
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 248083 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_MFDM_SYS(212), Opc:MTS_OPC_PCM_HW_EN_DI_REQ(63537)
+    RRtoken:0x005B7C4F
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 248405 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7C51
+
+
+pcm]
+  Event:ESQ_RSP length:38, at 249910 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_MOD_MEMB_LTL(69637)
+    RRtoken:0x005B7C51
+
+
+pcm]
+  Event:ESQ_REQ length:38, at 250037 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LACP(347), Opc:MTS_OPC_PCM_HW_EN_DI_NOTIF(63500)
+
+
+lacp]
+  FSM:<Ethernet1/1> Transition at 250171 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [LACP_ST_WAIT_FOR_HW_TO_PROGRAM_TRANSMIT_PATH]
+    Triggered event: [LACP_EV_PORT_HW_PATH_ENABLED]
+    Next state: [LACP_ST_PORT_MEMBER_COLLECTING_AND_DISTRIBUTING_ENABLED]
+
+
+pcm]
+  FSM:<Ethernet1/1> Transition at 250212 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [PCM_ETH_PORT_ST_HW_CONFIG_WAIT]
+    Triggered event: [PCM_PORT_EV_CHANNEL_HW_CONFIG_UP_DONE]
+    Next state: [PCM_ETH_PORT_ST_PC_UP]
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 251380 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C33
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 251673 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 252098 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 252256 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C5B
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 252576 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C5B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 252964 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 252970 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 252999 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 253017 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 253048 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLTFM_CONFIG(424), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C60
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 256512 usecs after Thu Jun 17 17:31:10 2021
+    Instance:0x1A000000, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLTFM_CONFIG(424), Opc:MTS_OPC_ETHPM_BUNDLE_MEMBER_BRINGUP(61451)
+    RRtoken:0x005B7C60
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 256555 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_P2_BRINGUP_DONE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 258032 usecs after Thu Jun 17 17:31:10 2021
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BUNDLE_MEMBER_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BRINGUP_BUNDLE_MEMBER_DONE]
+    Next state: [ETH_PORT_FSM_ST_BUNDLE_MEMBER_UP]
+
+
+ethpm]
+  FSM:<Ethernet1/1> Transition at 185103 usecs after Thu Jun 17 17:32:07 2021
+    Previous state: [ETH_PORT_FSM_ST_BUNDLE_MEMBER_UP]
+    Triggered event: [ETH_PORT_FSM_EV_PACER_TIMER_EXPIRED]
+    Next state: [FSM_ST_NO_CHANGE]
+
+

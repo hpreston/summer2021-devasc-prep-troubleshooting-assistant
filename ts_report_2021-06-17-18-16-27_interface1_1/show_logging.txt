@@ -1,0 +1,50 @@
+2021 Jun 17 17:53:15 dist-sw01 last message repeated 1 time
+2021 Jun 17 17:55:57 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/4
+2021 Jun 17 17:56:07 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2021 Jun 17 17:56:07 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2021 Jun 17 17:56:15 dist-sw01 last message repeated 1 time
+2021 Jun 17 17:56:15 dist-sw01 %SYSMGR-3-CORE_OP_FAILED: Core operation failed: /bin/rm -f /var/sysmgr/vsh/* 2> /dev/null - return 256
+2021 Jun 17 17:57:31 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/4
+2021 Jun 17 17:57:38 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2021 Jun 17 17:57:38 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2021 Jun 17 17:57:38 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2021 Jun 17 17:57:38 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2021 Jun 17 17:57:38 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2021 Jun 17 17:57:38 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2021 Jun 17 17:57:45 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2021 Jun 17 17:57:45 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2021 Jun 17 17:58:32 dist-sw01 last message repeated 1 time
+2021 Jun 17 17:58:32 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2021 Jun 17 17:58:32 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2021 Jun 17 17:58:32 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2021 Jun 17 17:58:32 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2021 Jun 17 17:58:32 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2021 Jun 17 17:58:32 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2021 Jun 17 17:59:15 dist-sw01 %SYSMGR-3-CORE_OP_FAILED: Core operation failed: /bin/rm -f /var/sysmgr/vsh/* 2> /dev/null - return 256
+2021 Jun 17 17:59:22 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/4
+2021 Jun 17 17:59:30 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2021 Jun 17 17:59:30 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2021 Jun 17 17:59:31 dist-sw01 last message repeated 1 time
+2021 Jun 17 17:59:31 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 
+2021 Jun 17 18:00:14 dist-sw01 last message repeated 2 times
+2021 Jun 17 18:00:14 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2021 Jun 17 18:00:14 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2021 Jun 17 18:00:14 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2021 Jun 17 18:00:14 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2021 Jun 17 18:00:14 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2021 Jun 17 18:00:14 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2021 Jun 17 18:00:15 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO UP 
+2021 Jun 17 18:02:15 dist-sw01 %SYSMGR-3-CORE_OP_FAILED: Core operation failed: /bin/rm -f /var/sysmgr/vsh/* 2> /dev/null - return 256
+2021 Jun 17 18:05:15 dist-sw01 last message repeated 1 time
+2021 Jun 17 18:08:15 dist-sw01 last message repeated 1 time
+2021 Jun 17 18:11:15 dist-sw01 last message repeated 1 time
+2021 Jun 17 18:12:44 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2021 Jun 17 18:12:44 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2021 Jun 17 18:14:15 dist-sw01 last message repeated 1 time
+2021 Jun 17 18:14:15 dist-sw01 %SYSMGR-3-CORE_OP_FAILED: Core operation failed: /bin/rm -f /var/sysmgr/vsh/* 2> /dev/null - return 256
+2021 Jun 17 18:16:12 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2021 Jun 17 18:16:12 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2021 Jun 17 18:16:12 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2021 Jun 17 18:16:12 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2021 Jun 17 18:16:12 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2021 Jun 17 18:16:12 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
