@@ -17,6 +17,8 @@ Command Line Argument: Interface ID
 """
 
 from cli import cli, clid, structured_output_not_supported_error
+from datetime import datetime
+
 
 def run_command(command, interface): 
     """
@@ -64,9 +66,16 @@ if __name__ == "__main__":
         output[label] = run_command(command, args.interface)
     
     # for debugging, print output 
-    print(output)
-
+    # print(output)
 
     # Create new folder for output 
+    now = datetime.now()
+    report_timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
+    folder_name = "/bootflash/ts_report_{timestamp}_{interface_id}".format(
+        timestamp=report_timestamp, 
+        interface_id=args.interface
+        )
+
+    print("Output will be stored in folder {folder_name}/".format(folder_name=folder_name))
 
     # Create a file for each command output
