@@ -18,8 +18,17 @@ Command Line Argument: Interface ID
 
 if __name__ == "__main__": 
     print("Collecting show commands and storing in bootflash.")
-    # Collect interface ID as command line argument 
 
+    # Collect interface ID as command line argument 
+    import argparse
+
+    # Use argparse to determine the interface id for testing
+    parser = argparse.ArgumentParser(description='Run show commands to assist with troubleshooting')
+    parser.add_argument('--interface', required=True, type=str, help='Interface of interest. (example: 1/1')
+    args = parser.parse_args()
+
+    print("Interface Ethernet {interface_id} will be checked.".format(interface_id = args.interface))
+   
     # Run commands and store output 
 
     # Create new folder for output 
